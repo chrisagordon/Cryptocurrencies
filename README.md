@@ -6,8 +6,16 @@ Cryptocurrency data is given and a client is asking for the data to be grouped i
 
 ## 2. RESULTS
 
-![This is an image](https://github.com/chrisagordon/Earthquakes_w-t_JS_and_APIs/blob/main/Challenge/Static/Images/Overall%20Photo%20-%20Earthquake%20APIs.PNG)
+Below is an image of our Raw Dataframe when imported into Jupyter Notebook 
+![This is an image](https://github.com/chrisagordon/Cryptocurrencies/blob/main/Challenge/Images/Raw%20Dataframe.PNG)
 
+By removing the untraded cryptocurrencies, rows with null values, coins that aren't being mined, and coins without a name we were able to clean excess data starting at 1252 rows down to 532 rows. See the dataframe below: 
+![This is an image](https://github.com/chrisagordon/Cryptocurrencies/blob/main/Challenge/Images/Final%20Dataframe%20Cryptocurrencies.PNG) 
+
+Next, using get dummies and standardizing the data by scaling it into 5 arrays we were able to produce these dataframes 
+
+![This is an image](https://github.com/chrisagordon/Cryptocurrencies/blob/main/Challenge/Images/Using%20GetDummies%20on%20Dataframe.PNG) 
+![This is an image](https://github.com/chrisagordon/Cryptocurrencies/blob/main/Challenge/Images/Standard%20Scaling%20Dataframe.PNG)
 
 
 ## 3. SUMMARY
