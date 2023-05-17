@@ -31,8 +31,7 @@ We also created a 2-D Scatterplot using the Total Coins Mined against the Total 
 
 
 ## 3. SUMMARY
-- From what was taught in class an interactive webpage with public JSON data about earthquakes was able to be made. A user can adjust what information is displayed be it a different map or the severity of the earthquakes
-- In order to use this repository to run the map, it must be downloaded and hosted as a local server on your computer 
-- Additional Visualization Recommendations
-  1) Allow a user to type in a range of what they would like displayed into an input box 
-  2) Capabilities to increase the time range, would require a different data source
+- Using PCA and K-means we have taken dat from 1252 Cryptocurrencies to 532 tradable ones. These can be seen in the dataframe below. However the client would like to use this infromation to recommend investments is up to them.
+![This is an image](https://github.com/chrisagordon/Cryptocurrencies/blob/main/Challenge/Images/Tradeable%20Cryptocurrencies%20Dataframe.PNG)
+- Additionally the 2-D scatterplot comparing Total Coins Mined against the Total Coin Supply may be an indicator of coin usage and movement which could drive investments, seeing where group 0 clustered coins are concentrated in the bottom left of the graph may indicate they are traded and mined often and would be an interesting market investment.
+
