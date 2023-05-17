@@ -22,6 +22,12 @@ Next, using get dummies and standardizing the data by scaling it into 5 arrays w
 From there, using PCA the coins features were reduces into three separate values and an elbow curve was created using the inertia and number of k values to determine the correct number of clusters for a k-means model 
 ![This is an image](https://github.com/chrisagordon/Cryptocurrencies/blob/main/Challenge/Images/K%20value%20curve%20graph.PNG)
 
+The k-means model was ran and the coins were sorted into 4 categories here is the 3-D Scatterplot generated 
+![This is an image](https://github.com/chrisagordon/Cryptocurrencies/blob/main/Challenge/Images/3-D%20Scatterplot.PNG)
+
+We also created a 2-D Scatterplot using the Total Coins Mined against the Total Coin Supply 
+![This is an image](https://github.com/chrisagordon/Cryptocurrencies/blob/main/Challenge/Images/Scatter%20of%20Coins%20Mined%20vs%20Supply.PNG)
+
 
 
 ## 3. SUMMARY
